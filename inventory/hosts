@@ -1,0 +1,8 @@
+all:
+  hosts:
+    pluslife-companion-1:
+
+    #pluslife-companion-2:
+    #  ansible_host: 192.168.178.186
+    #pluslife-companion-3:
+    #  ansible_host: 192.168.178.XXX
