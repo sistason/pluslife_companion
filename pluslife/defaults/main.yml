@@ -1,4 +1,0 @@
-pluslife:
-  return_button_gpio: 21
-  touch_device_id: 7 #gets set during deployment
-  display_rotation: 270
