@@ -38,7 +38,7 @@ Software (described and automated [below](#Setup)):
 
 Besides a Raspberry Pi and a Pluslife device, you can 3D print a case to have a more clean build, so it could look like this:
 
-<img src="res/test_setup.jpeg" height="300">
+<img src="res/single_device.jpeg" width="500"> <img src="res/test_setup.jpeg" width="500">
 
 The build is based on 3 parts:
 
