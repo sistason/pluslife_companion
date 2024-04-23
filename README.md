@@ -7,7 +7,7 @@ Uses a Raspberry Pi (>=2) to interface with the [Pluslife NAAT](virus.sucks/plus
 The setup consists of the following parts:
 
 Hardware:
-- Raspberry Pi. 2++ (armv7++), as a Pi 1 a) has problems with RAM for running chrome and b) difficulties running the display
+- Raspberry Pi. 2 or 3 (armv7++), as a Pi 1 a) has problems with RAM for running chrome and b) difficulties running the display
 - A 3.5 inch touchscreen (XPT2046 / ADS7846). 480x320 is too small for comfort, but its cheap and works (with hacks)
 - A hardware button on GPIO to press `Return`, as the 320px are too small in chrome dialogs to confirm serial port connections...
 
@@ -49,3 +49,4 @@ The build is based on 3 parts:
 ## Troubleshooting
 
 - if the first run wizard is on screen so the taskbar is not shown: you need to set a username+password in your image, so the first run wizard is skipped
+- currently, Chromium on Raspberry Pi 4 does not find its USB devices. Work in Progress.  
